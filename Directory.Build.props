@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <KSPPath Condition="'$(KSPPath)' == '' and '$(KSP_DIR)' != ''">$(KSP_DIR)</KSPPath>
+    <KSPPath Condition="'$(KSPPath)' == ''">C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program</KSPPath>
+  </PropertyGroup>
+</Project>
